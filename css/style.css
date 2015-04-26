@@ -1,0 +1,113 @@
+/* index.css */
+html{
+
+background: #cccccc;
+font-family: comic sans ms;
+color:#eee;
+}
+body{
+width: 1000px;
+margin: auto;
+margin-top: 10px;
+
+
+}
+.wrap{
+background:#ddd;
+}
+.topbar{
+width:auto;
+height:30px;
+padding:10px;
+background:#fff;
+}
+.topbar .search{
+width:auto;
+text-align:right;
+float:right;
+}
+.topbar .menubar{
+width:300px;
+height:20px;
+color:#ffff00;
+float:left;
+}
+.topbar .menubar a{
+color:#ffff00;
+font-weight:bold;
+}
+.topbar .menubar a:visited {
+	color: #ff9900;
+}
+
+.topbar .menubar a:focus {
+	outline: thin dotted;
+}
+
+.topbar .menubar a:active,
+.topbar .menubar a:hover {
+	color: #ffffff;
+	outline: 0;
+}
+
+.sidebar{
+width:300px;
+height:1000px;
+padding:10px;
+background:#073673;
+float:left;
+}
+.sidebar .title{
+font-size:32px;
+color:#ff9900;
+margin-top:10px;
+}
+.sidebar .category{
+margin-top:10px;
+width:auto;
+font-size:32px;
+}
+.main{
+width:660px;
+height:1000px;
+padding:10px;
+float:right;
+background:#ff9900;
+margin-bottom: 10px;
+}
+
+.main .content{
+
+}
+.content .box{
+width:200px;
+background:#ffff00;
+
+}
+.box .title{
+text-align:center;
+font-size:24px;
+color:#000;
+}
+.box .pict{
+width:200px;
+height:200px;
+
+}
+.box .pict img{
+width:200px;
+height:200px;
+}
+.box .price{
+text-align:center;
+font-size:18px;
+color:#000;
+}
+.footer{
+background:#000;
+width:auto;
+margin-top:10px;
+padding:10px;
+text-align:left;
+float:center;
+}
